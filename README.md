@@ -18,8 +18,8 @@ A password strength checker using Python is a program designed to evaluate the s
     v. Special symbols (like @, #, $, etc.)
 
 3. Feedback on Password Strength:
-   1. The strength score ranges from 1 (very weak) to 5 (very strong).
-   2. Based on the score, the program provides a remark:
+1. The strength score ranges from 1 (very weak) to 5 (very strong).
+2. Based on the score, the program provides a remark:
       
        i. Score 1: Very bad password, needs immediate change.
       
@@ -39,7 +39,11 @@ A password strength checker using Python is a program designed to evaluate the s
 1. The user runs the program and is prompted to input a password.
 2. The password is analyzed for its composition, and a score is generated based on how many different types of characters it contains.
 3. The program then displays:
-   3.1 A breakdown of character types used in the password.
-   3.2 A password strength score (ranging from 0.0 to 1.0).
-   3.3 Feedback on the quality of the password.
+
+   i. A breakdown of character types used in the password.
+   
+   ii. A password strength score (ranging from 0.0 to 1.0).
+   
+   iii. Feedback on the quality of the password.
+   
 4. The user can choose to check another password or exit the program.
