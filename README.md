@@ -6,11 +6,11 @@ A password strength checker using Python is a program designed to evaluate the s
 1. User Input: The user enters a password, which is then analyzed for strength. The password is typically checked for various attributes like the presence of uppercase letters, lowercase letters, numbers, whitespace characters, and special symbols.
   
 2. Strength Calculation: The program assigns a strength score based on the diversity of characters used in the password:
-    2.1 Lowercase letters
-    2.2 Uppercase letters
-    2.3 Digits (numbers)
-    2.4 Whitespace (spaces)
-    2.5 Special symbols (like @, #, $, etc.)
+    i. Lowercase letters
+    ii. Uppercase letters
+    iii. Digits (numbers)
+    iv. Whitespace (spaces)
+    v. Special symbols (like @, #, $, etc.)
 
 3. Feedback on Password Strength:
    1. The strength score ranges from 1 (very weak) to 5 (very strong).
