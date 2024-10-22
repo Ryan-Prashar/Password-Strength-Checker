@@ -29,7 +29,7 @@ A password strength checker using Python is a program designed to evaluate the s
 1. The user runs the program and is prompted to input a password.
 2. The password is analyzed for its composition, and a score is generated based on how many different types of characters it contains.
 3. The program then displays:
-3.1 A breakdown of character types used in the password.
-3.2 A password strength score (ranging from 0.0 to 1.0).
-3.3 Feedback on the quality of the password.
+   3.1 A breakdown of character types used in the password.
+   3.2 A password strength score (ranging from 0.0 to 1.0).
+   3.3 Feedback on the quality of the password.
 4. The user can choose to check another password or exit the program.
