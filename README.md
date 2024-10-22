@@ -18,7 +18,9 @@ A password strength checker using Python is a program designed to evaluate the s
     v. Special symbols (like @, #, $, etc.)
 
 3. Feedback on Password Strength:
+  
 1. The strength score ranges from 1 (very weak) to 5 (very strong).
+  
 2. Based on the score, the program provides a remark:
       
        i. Score 1: Very bad password, needs immediate change.
