@@ -8,23 +8,32 @@ A password strength checker using Python is a program designed to evaluate the s
 2. Strength Calculation: The program assigns a strength score based on the diversity of characters used in the password:
    
     i. Lowercase letters
+   
     ii. Uppercase letters
+   
     iii. Digits (numbers)
+   
     iv. Whitespace (spaces)
+   
     v. Special symbols (like @, #, $, etc.)
 
-4. Feedback on Password Strength:
+3. Feedback on Password Strength:
    1. The strength score ranges from 1 (very weak) to 5 (very strong).
    2. Based on the score, the program provides a remark:
-       2.1 Score 1: Very bad password, needs immediate change.
-       2.2 Score 2: Weak password, should be improved.
-       2.3 Score 3: Okay, but could be stronger.
-       2.4 Score 4: Hard to guess, but can still be better.
-       2.5 Score 5: Strong password, highly secure.
+      
+       i. Score 1: Very bad password, needs immediate change.
+      
+       ii. Score 2: Weak password, should be improved.
+      
+       iii. Score 3: Okay, but could be stronger.
+      
+       iv. Score 4: Hard to guess, but can still be better.
+      
+       v. Score 5: Strong password, highly secure.
    
-5. Detailed Breakdown: The program counts and displays the number of each type of character in the password (lowercase, uppercase, numbers, etc.), helping the user understand what is missing or could be improved.
+4. Detailed Breakdown: The program counts and displays the number of each type of character in the password (lowercase, uppercase, numbers, etc.), helping the user understand what is missing or could be improved.
    
-6. Interactive Loop: The program allows users to check multiple passwords in a single session by asking if they want to check another password after evaluating the first one.
+5. Interactive Loop: The program allows users to check multiple passwords in a single session by asking if they want to check another password after evaluating the first one.
 
 # Example Workflow:
 1. The user runs the program and is prompted to input a password.
