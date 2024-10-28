@@ -13,20 +13,20 @@ This project is a web-based password strength checker built using Python and Fla
    
 # Project Structure
 
-password_checker/
-├── app.py               # Main Flask application
-├── templates/
-│   └── index.html       # HTML template for the password checker page
-├── static/
-│   └── style.css        # CSS styling for the webpage
-└── README.md            # Project documentation
+   password_checker/
+   ├── app.py               # Main Flask application
+   ├── templates/
+   │   └── index.html       # HTML template for the password checker page
+   ├── static/
+   │   └── style.css        # CSS styling for the webpage
+
 
 
 # Setup Instructions
 
 1. Clone the Repository
 
-$ git clone https://github.com/your-username/password-checker.git
+$ git clone https://github.com/Ryan-Prashar/Password-Strength-Checker.git
 $ cd password-checker
 
 
