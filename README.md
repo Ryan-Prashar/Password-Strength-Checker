@@ -41,3 +41,6 @@ Open your web browser and navigate to http://127.0.0.1:5000 to access the passwo
 1. Enter your desired password in the input field.
 2. Click the Check Strength button to submit the password.
 3. View the password strength on a scale of 1 to 5, along with feedback on the strength level.
+
+License
+This project is licensed under the MIT License.
