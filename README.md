@@ -11,16 +11,6 @@ This project is a web-based password strength checker built using Python and Fla
 2. Frontend: HTML, CSS
 3. Libraries: string, Flask
    
-# Project Structure
-
-   password_checker/
-   ├── app.py               # Main Flask application
-   ├── templates/
-   │   └── index.html       # HTML template for the password checker page
-   ├── static/
-   │   └── style.css        # CSS styling for the webpage
-
-
 
 # Setup Instructions
 
