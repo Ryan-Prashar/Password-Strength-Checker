@@ -1,51 +1,53 @@
-# Password-Strength-Checker
+# Password Strength Checker Web App
+This project is a web-based password strength checker built using Python and Flask. Users can enter a password, check its strength on a scale of 1 to 5, and receive feedback on how secure the password is. The app uses visual cues and a responsive design for an elegant and user-friendly experience.
 
-A password strength checker using Python is a program designed to evaluate the security level of a password based on specific criteria. This type of program helps users create stronger, more secure passwords by providing feedback on the composition of their passwords.
+# Features
+1. Password Strength Evaluation: Calculates password strength based on character types (uppercase, lowercase, numbers, special characters).
+2. Visual Feedback: Displays a strength bar that changes color according to the strength level.
+3. User-Friendly Interface: Simple and elegant design with smooth animations and visual feedback.
 
-# Key Features:
-1. User Input: The user enters a password, which is then analyzed for strength. The password is typically checked for various attributes like the presence of uppercase letters, lowercase letters, numbers, whitespace characters, and special symbols.
-  
-2. Strength Calculation: The program assigns a strength score based on the diversity of characters used in the password:
+# Technologies Used
+1. Backend: Python, Flask
+2. Frontend: HTML, CSS
+3. Libraries: string, Flask
    
-    i. Lowercase letters
-   
-    ii. Uppercase letters
-   
-    iii. Digits (numbers)
-   
-    iv. Whitespace (spaces)
-   
-    v. Special symbols (like @, #, $, etc.)
+# Project Structure
 
-3. Feedback on Password Strength:
-  
-i. The strength score ranges from 1 (very weak) to 5 (very strong).
-  
-ii. Based on the score, the program provides a remark:
-      
-       i. Score 1: Very bad password, needs immediate change.
-      
-       ii. Score 2: Weak password, should be improved.
-      
-       iii. Score 3: Okay, but could be stronger.
-      
-       iv. Score 4: Hard to guess, but can still be better.
-      
-       v. Score 5: Strong password, highly secure.
-   
-4. Detailed Breakdown: The program counts and displays the number of each type of character in the password (lowercase, uppercase, numbers, etc.), helping the user understand what is missing or could be improved.
-   
-5. Interactive Loop: The program allows users to check multiple passwords in a single session by asking if they want to check another password after evaluating the first one.
+password_checker/
+├── app.py               # Main Flask application
+├── templates/
+│   └── index.html       # HTML template for the password checker page
+├── static/
+│   └── style.css        # CSS styling for the webpage
+└── README.md            # Project documentation
 
-# Example Workflow:
-1. The user runs the program and is prompted to input a password.
-2. The password is analyzed for its composition, and a score is generated based on how many different types of characters it contains.
-3. The program then displays:
 
-   i. A breakdown of character types used in the password.
-   
-   ii. A password strength score (ranging from 0.0 to 1.0).
-   
-   iii. Feedback on the quality of the password.
-   
-4. The user can choose to check another password or exit the program.
+# Setup Instructions
+
+1. Clone the Repository
+
+$ git clone https://github.com/your-username/password-checker.git
+$ cd password-checker
+
+
+2. Create a Virtual Environment (Optional)
+
+$ python3 -m venv venv
+$ source venv/bin/activate   # On Windows, use: venv\Scripts\activate
+
+3. Install Dependencies
+
+$ pip install flask
+
+4. Run the Flask Application
+
+$ python app.py
+
+5. Access the Web Application
+
+Open your web browser and navigate to http://127.0.0.1:5000 to access the password strength checker.
+
+# Usage
+1. Enter your desired password in the input field.
+2. Click the Check Strength button to submit the password.
+3. View the password strength on a scale of 1 to 5, along with feedback on the strength level.
